@@ -1,0 +1,145 @@
+/* 전체 배경 및 기본 글꼴 설정 */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f9f4; /* 아주 연한 초록빛 베이지 */
+  color: #3e3e3e;
+  margin: 0;
+  padding: 0;
+}
+
+/* 헤더 스타일 */
+header {
+  background-color: #6b8e23; /* 어두운 올리브 그린 */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #4e6e1d;
+}
+
+/* 내비게이션 스타일 */
+nav {
+  background-color: #ede7dd; /* 연한 베이지 갈색 */
+  border-left: 5px solid #6b8e23;
+  padding: 15px;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+nav h2 {
+  margin-top: 0;
+  color: #5d4037; /* 브라운 */
+}
+
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+nav li {
+  margin: 5px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #6b8e23;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #4e6e1d;
+}
+
+/* 섹션 제목 스타일 */
+section h2 {
+  color: #5d4037;
+  margin-top: 40px;
+  border-bottom: 2px solid #c5d7b3; /* 연초록 */
+  padding-bottom: 5px;
+}
+
+/* 개요 블록 강조 스타일 */
+#overview div {
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e3f2e1; /* 연한 초록 회색 */
+  font-weight: bold;
+}
+
+/* 맛집 목록 스타일 */
+ol {
+  padding-left: 20px;
+}
+
+ol li {
+  margin-bottom: 8px;
+}
+
+/* 테이블 스타일 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #dcedc8; /* 아주 연한 연두 */
+  color: #3e3e3e;
+}
+
+.hover-table tbody tr:hover {
+  background-color: #f9fbe7;
+  transition: background-color 0.3s;
+}
+
+/* 이미지에 살짝 둥글기 */
+td img {
+  border-radius: 8px;
+}
+
+/* 푸터 스타일 */
+footer {
+  background-color: #5d4037; /* 진한 갈색 */
+  color: white;
+  text-align: center;
+  padding: 8px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* 중앙 정렬용 container */
+.container {
+  width: 80%; /* 원하는 가로 너비 */
+  margin: 0 auto; /* 가로 중앙 정렬 */
+  text-align: center; /* 모든 텍스트 중앙 정렬 */
+}
+
+/* 표 안 텍스트 중앙 정렬 */
+.hover-table th,
+.hover-table td {
+  text-align: center;
+}
+
+/* 이미지 중앙 정렬 */
+.hover-table img {
+  display: block;
+  margin: 0 auto;
+}
+.content-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.spacer {
+  height: 100px; /* 푸터 위 여백 확보 */
+}
